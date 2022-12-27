@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Todo [![pages-build-deployment](https://github.com/mherman22/todo-typescript/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/mherman22/todo-typescript/actions/workflows/pages/pages-build-deployment)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
