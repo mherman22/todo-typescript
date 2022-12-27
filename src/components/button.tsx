@@ -1,14 +1,14 @@
 import React from 'react'
 
-interface SearchButtonProps {
+interface ButtonProps {
     buttonType:'submit' | 'reset' | 'button' | undefined;
     children: React.ReactNode;
 }
 
-const SearchButton = ({buttonType, children}:SearchButtonProps) => {
+const Button = ({buttonType, children}:ButtonProps) => {
   return (
     <button type='submit' className='button__submit'>{children}</button>
   )
 }
 
-export default SearchButton
+export default Button

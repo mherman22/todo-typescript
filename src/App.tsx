@@ -3,6 +3,7 @@ import { Header } from './components/Header';
 import { Todo } from './components/model/todo';
 import { Search } from './components/search';
 import React,{ useState } from 'react';
+import { TodoList } from './components/todolist';
 
 const App = () => {
 
@@ -22,6 +23,7 @@ const App = () => {
     <div className='App'>
         <Header title='this is my title'>ToDo App</Header>
         <Search type='input' placeholder='Search a Task' todo={todo} setTodo={setTodo} handleAdd={handleAdd}/>
+        <TodoList todos={todos} setTodos={setTodos} />
     </div>
   );
 }
