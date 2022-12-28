@@ -1,4 +1,4 @@
-# Todo [![pages-build-deployment](https://github.com/mherman22/todo-typescript/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/mherman22/todo-typescript/actions/workflows/pages/pages-build-deployment)
+# Todo [![pages-build-deployment](https://github.com/mherman22/todo-typescript/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/mherman22/todo-typescript/actions/workflows/pages/pages-build-deployment) [![Node.js CI](https://github.com/mherman22/todo-typescript/actions/workflows/node.js.yml/badge.svg)](https://github.com/mherman22/todo-typescript/actions/workflows/node.js.yml)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). And it was built using reactjs + typescript as i was trying to learn how to use the two technologies for a better developer experience.
 
