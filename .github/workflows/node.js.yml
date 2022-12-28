@@ -26,6 +26,16 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
+
+    - name: Install dependencies
+    - run: npm install
+
+    - name: Build React App
     - run: npm run build --if-present
+
+    - name: set my email address
+    - run: git config user.email "hermanmuhereza22@gmail.com" && git config user.name "mherman22"
+    - run: git add . && git commit -m "Prerelease version" --no-verify
+
+    - name: Deploy to Github Actions
     - run: npm run deploy
