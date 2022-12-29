@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). And it was built using reactjs + typescript as i was trying to learn how to use the two technologies for a better developer experience.
 
+## Container
+https://github.com/mherman22/todo-typescript/pkgs/container/todo-typescript
+
 ## Additions
 I have added the ability for the app to store the todos to local storage so that on refresh we dont have to lose one's todos.
 
