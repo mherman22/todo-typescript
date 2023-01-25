@@ -42,7 +42,7 @@ const App = () => {
   return (
     <div className='App'>
         <Header title='this is my title'>ToDo App</Header>
-        <Search type='input' placeholder='Search a Task' todo={todo} setTodo={setTodo} handleAdd={handleAdd}/>
+        <Search type='input' placeholder='Create a New Todo Item' todo={todo} setTodo={setTodo} handleAdd={handleAdd}/>
         <TodoList todos={todos} setTodos={setTodos} />
     </div>
   );
